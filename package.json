@@ -1,0 +1,22 @@
+{
+  "name": "flow-issues",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "flow": "flow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrEfrem/flow-issues.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrEfrem/flow-issues/issues"
+  },
+  "homepage": "https://github.com/MrEfrem/flow-issues#readme",
+  "dependencies": {
+    "flow-bin": "^0.92.1"
+  }
+}
