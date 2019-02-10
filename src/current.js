@@ -1,10 +1,10 @@
 // @flow
 import commonTest from "./common";
 
-function currentTest1() {
-    return commonTest();
+async function currentTest1() {
+    return await commonTest();
 }
 
 export async function currentTest2(): Promise<{ a: number }> {
-    return currentTest1();
+    return await currentTest1();
 }

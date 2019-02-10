@@ -1,4 +1,4 @@
 // @flow
 export default function currentTest(): mixed {
-    return { a: 1 };
+    return new Promise(resolve => resolve({ a: 1 }));
 }
