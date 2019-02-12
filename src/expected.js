@@ -1,7 +1,7 @@
 // @flow
 import commonTest from "./common";
 
-async function expectedTest1(): mixed {
+async function expectedTest1(): Promise<mixed> {
     return await commonTest();
 }
 
